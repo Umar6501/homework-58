@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 44px;
+}
+
+.container-1 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  background-color: white;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+header .nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 800px;
+}
+header .nav .dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.search {
+  margin-top: 100px;
+  height: 40px;
+  width: 100%;
+}
+.search .ddd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.search .ddd .search-logo {
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  top: 114px;
+  left: 163px;
+  width: 24px;
+  height: 24px;
+  z-index: 99;
+}
+.search .ddd #search1 {
+  width: 480px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  color: #848484;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  padding-left: 70px;
+}
+.search .ddd #filter {
+  width: 200px;
+  height: 56px;
+  outline: none;
+  border: none;
+  flex-shrink: 0;
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.cars {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 264px 264px 264px 264px;
+  gap: 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.cars .car {
+  width: 264px;
+  height: 336px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  height: 400px;
+}
+.cars .car img {
+  width: 267px;
+  height: 160px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.cars .car h3 {
+  margin-left: 24px;
+  width: 188px;
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 26px; /* 144.444% */
+}
+.cars .car .items {
+  margin-left: 24px;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cars .car .items h2 {
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  line-height: 16px; /* 114.286% */
+}
+.cars .car .items h4 {
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px; /* 114.286% */
+}/*# sourceMappingURL=style.css.map */
